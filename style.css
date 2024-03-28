@@ -3,6 +3,7 @@ table {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 90vw;
+    margin-left: 3.5vw;
 }
 
 .heading {
@@ -15,38 +16,34 @@ table {
     margin-top: 35px;
 }
 
-.A1::before{
-    content: '1A';
-    position:absolute;
-    top:-20px;
-    left:50%;
-    transform: translateX(-50%);
-    font-size:0.8em;
+
+span {
+    font-size: 0.55rem;
+    opacity: 0.5;
+    vertical-align: bottom;
+    position: relative;
+    bottom: -2px;
+    
 }
 
-
-.A3::before{
-    content: '3A';
-    position:absolute;
-    top:-20px;
-    left:50%;
-    transform: translateX(-50%);
-    font-size:0.8em;
+.font {
+    font-size: 11px;
+    opacity: 0.5;
+    vertical-align: top;
+    top: -4px;
 }
-
-
-
-span{
-    font-weight:lighter ;
-    font-size:0.7rem;
-}
-
 
 .text {
     text-align: right;
     border: none;
-    padding-bottom: 0px;
+    font-size: 13px;
+    padding: 0px 0px 3px 0px;
+    position: relative;
+    left: -5vw;
+
+    
 }
+
 
 td {
     position: relative;
@@ -55,10 +52,223 @@ td {
     border: 1px solid black;
     border-width: 3px;
     color: black;
-    size: 12px;
     font-weight: 700;
-    padding: 4.5px;
-    font-size: 13px;    
+    padding: 4px;
+    font-size: 14px; 
+      
 }
+
+.A1::before{
+    content: '1A';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+
+}
+
+
+.B::before{
+    content: '3A';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.Be::before{
+    content: '2A';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+
+.Sc::before{
+    content: '3B';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.Ti::before{
+    content: '4B';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.V::before{
+    content: '5B';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.Cr::before{
+    content: '6B';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.Mn::before{
+    content: '7B';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.Cu::before{
+    content: '1B';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.Zn::before{
+    content: '2B';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.C::before{
+    content: '4A';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.N::before{
+    content: '5A';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.O::before{
+    content: '6A';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.F::before{
+    content: '7A';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.He::before{
+    content: '8A';
+    position:absolute;
+    top:-20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.Co::before{
+    content: '8B';
+    position:absolute;
+    top:-20px;
+    left:32px;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    opacity: .6;
+    font-style: normal;
+}
+
+.line::before{
+    position:absolute;
+    top:-17px;
+    left:50%;
+    font-size: 0.9em;
+    content: '';
+    transform: rotate(-180deg);
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width: 85%;
+    height: 21%;
+    opacity: 0.6;
+    margin-top: 3px;
+     
+}
+
+.line2::before{
+    position:absolute;
+    top:-17px;
+    left:-20px;
+    content: '';
+    transform: rotate(-180deg);
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 85%;
+    height: 21%;
+    opacity: 0.6;
+    margin-top: 3px;
+
+
+}
+
+
 
 
