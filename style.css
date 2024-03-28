@@ -6,6 +6,26 @@ table {
     margin-left: 3.5vw;
 }
 
+td {
+    position: relative;
+    text-align: center;
+    width: 3vw; 
+    border: 1px solid black;
+    border-width: 3px;
+    color: black;
+    font-weight: 700;
+    padding: 4px;
+    font-size: 14px;      
+}
+
+span {
+    font-size: 0.55rem;
+    opacity: 0.5;
+    vertical-align: bottom;
+    position: relative;
+    bottom: -2px;   
+}
+
 .heading {
     display: flex;
     justify-content: center;
@@ -14,16 +34,6 @@ table {
     font-style: normal;
     font-family: "Tauri", sans-serif;
     margin-top: 35px;
-}
-
-
-span {
-    font-size: 0.55rem;
-    opacity: 0.5;
-    vertical-align: bottom;
-    position: relative;
-    bottom: -2px;
-    
 }
 
 .font {
@@ -39,208 +49,189 @@ span {
     font-size: 13px;
     padding: 0px 0px 3px 0px;
     position: relative;
-    left: -5vw;
-
-    
+    left: -5vw;    
 }
 
-
-td {
-    position: relative;
-    text-align: center;
-    width: 3vw; 
-    border: 1px solid black;
-    border-width: 3px;
-    color: black;
-    font-weight: 700;
-    padding: 4px;
-    font-size: 14px; 
-      
-}
-
-.A1::before{
+.A1::before {
     content: '1A';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
-
 }
 
-
-.B::before{
+.B::before {
     content: '3A';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.Be::before{
+.Be::before {
     content: '2A';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-
-.Sc::before{
+.Sc::before {
     content: '3B';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.Ti::before{
+.Ti::before {
     content: '4B';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.V::before{
+.V::before {
     content: '5B';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.Cr::before{
+.Cr::before {
     content: '6B';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.Mn::before{
+.Mn::before {
     content: '7B';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.Cu::before{
+.Cu::before {
     content: '1B';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.Zn::before{
+.Zn::before {
     content: '2B';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.C::before{
+.C::before {
     content: '4A';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.N::before{
+.N::before {
     content: '5A';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left :50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.O::before{
+.O::before {
     content: '6A';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.F::before{
+.F::before {
     content: '7A';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.He::before{
+.He::before {
     content: '8A';
-    position:absolute;
-    top:-20px;
-    left:50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.Co::before{
+.Co::before {
     content: '8B';
     position:absolute;
-    top:-20px;
-    left:32px;
+    top: -20px;
+    left: 32px;
     transform: translateX(-50%);
     font-size: 0.9em;
     opacity: .6;
     font-style: normal;
 }
 
-.line::before{
+.line::before {
     position:absolute;
-    top:-17px;
-    left:50%;
+    top: -17px;
+    left: 50%;
     font-size: 0.9em;
     content: '';
     transform: rotate(-180deg);
@@ -250,13 +241,12 @@ td {
     height: 21%;
     opacity: 0.6;
     margin-top: 3px;
-     
 }
 
-.line2::before{
+.line2::before {
     position:absolute;
-    top:-17px;
-    left:-20px;
+    top: -17px;
+    left: -20px;
     content: '';
     transform: rotate(-180deg);
     border-bottom: 2px solid black;
@@ -265,8 +255,6 @@ td {
     height: 21%;
     opacity: 0.6;
     margin-top: 3px;
-
-
 }
 
 
